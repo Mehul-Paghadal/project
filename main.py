@@ -52,5 +52,5 @@ def main(input_path):
 
 if __name__ == "__main__":
     # Specify the path to your data
-    input_path = "path_to_your_file.csv"
+    input_path = "./retaildata.csv"
     main(input_path)
