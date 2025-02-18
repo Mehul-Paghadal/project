@@ -16,7 +16,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # 1. Load the data (Assuming your CSV is stored locally or on a cloud bucket)
-df = spark.read.option("header", "true").csv("path_to_your_file.csv")
+df = spark.read.option("header", "true").csv("./retaildata.csv")
 
 # Show the first few rows of the dataset to inspect it
 df.show()
